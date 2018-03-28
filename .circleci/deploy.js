@@ -5,7 +5,7 @@ var config = {
     username: process.env.FTPUSERNAME,
     password: process.env.FTPPASS,
     host: process.env.FTPHOST,
-    port: 22,
+    port: 21,
     localRoot: __dirname + "/../dist/",
     remoteRoot: "/",
     include: ['*']
