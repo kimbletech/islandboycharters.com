@@ -7,7 +7,7 @@ var config = {
     host: process.env.FTPHOST,
     port: 22,
     localRoot: __dirname + "/../dist/",
-    remoteRoot: "/home/projectp/public_html/stage2/",
+    remoteRoot: "/",
     include: ['*']
 }
     
