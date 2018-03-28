@@ -1,7 +1,108 @@
-@import "variables.scss";
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/css/mdb.min.css);
+@import "mdb.min.css";
 
-
-body {
-	background: $darkBlue;
-	color: #fff;
+/* styles overrides */
+.col-xs-10 {
 }
+
+.jumbotron {
+	background-color: #619DA8;
+	padding-top: 22px;
+	padding-bottom: 2px;
+}
+
+.dek-custom h1 {
+    font-family: "passion-one";
+	font-weight: 900;
+    letter-spacing: 10px;
+    line-height: 90%;
+}
+
+.tan-back {
+	background-color: #E4D3CA;
+}
+
+.footer-colors {
+	background-color: rgba(96,113,115,1.00);
+}
+
+.no-top-margin {
+	margin-top: -30px;
+}
+
+.about { /* why you so whacky? */
+    font-size: 2em;
+    font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    color: black;
+    text-shadow: -1px 0 #619DA8, 0 1px #619DA8, 1px 0 #619DA8, 0 -1px #619DA8;
+}
+
+.specialty {
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #C73333;
+    padding-top: 1px;
+}
+
+.get-wet {
+	background-image: url(../assets/img/waves1280x.jpg);
+/*	min-height: 560px;*/
+}
+
+#welcome {
+	color: white;
+/*
+	width: 420px;
+	height: 320px;
+*/
+}
+
+.col-6 #welcome {
+	border: 4px outset rgba(207,197,142,1.00);
+	background: repeating-linear-gradient(rgba(0,0,0,0.6) 65%, rgba(177,161,139,0.73), rgba(0,0,0,0.6));
+	border-radius: 25px;
+	padding: 15px;
+	margin: 15px;
+	text-shadow: 3px 3px 4px #000000;
+	box-shadow: 8px 8px 5px rgba(75,75,75,0.75);
+}
+.planks-bkgrnd-banner {
+	background-image: url(../assets/img/Background.jpg);
+	background-size: 100%;
+}
+
+
+.planks-bkgrnd-feature {
+	background-image: url(../assets/img/Background-Feature.jpg);
+	background-size: 100%;
+}.bgimage-inside {
+    padding-top: 37.36%;
+}
+
+/* Gold Trim Package */
+
+.gold-package-all {
+	border: 4px outset rgba(207,197,142,1.00);
+	border-radius: 25px;
+}
+
+.gold-package-sides {
+	border-right: 4px outset rgba(207,197,142,1.00);
+	border-left: 4px outset rgba(207,197,142,1.00);
+	border-radius: 0px;
+}
+
+.gold-package-sides-bottom {
+	border-right: 4px outset rgba(207,197,142,1.00);
+	border-left: 4px outset rgba(207,197,142,1.00);
+	border-bottom: 4px outset rgba(207,197,142,1.00);
+	border-radius: 0px;
+}
+
+.gold-package-bottom {
+	border: 4px outset rgba(207,197,142,1.00);
+}
+
