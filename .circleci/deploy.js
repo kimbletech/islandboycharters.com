@@ -7,8 +7,8 @@ var config = {
     host: process.env.FTPHOST,
     port: 22,
     localRoot: __dirname + "/../dist/",
-    remoteRoot: "public_html/stage2/",
-    include: ['index.html,assets/*,js/*,css/*']
+    remoteRoot: "/home/projectp/public_html/stage2/",
+    include: ['*']
 }
     
 ftpDeploy.deploy(config, function(err) {
