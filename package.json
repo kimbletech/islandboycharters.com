@@ -9,11 +9,11 @@
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "browser-sync": "^2.23.5",
-    "browserify": "^2.4.0",
+    "browserify": "^16.1.1",
     "ftp-deploy": "^1.2.2",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
-    "gulp-babel": "^6.1.2",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
     "gulp-browserify": "^0.5.1",
     "gulp-headerfooter": "^1.0.3",
     "gulp-rename": "^1.2.2",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "jquery": "^1.9.1",
+    "jquery": "~3.3.1",
     "mdbootstrap": "^4.5.0",
     "popper.js": "^1.12.9"
   }
