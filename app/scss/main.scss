@@ -8,7 +8,7 @@
 	padding-bottom: 2px;
 }
 
-.dek-custom h1 {
+.dek-custom {
     font-family: "passion-one";
 	font-weight: 900;
     letter-spacing: 10px;
@@ -21,6 +21,11 @@
 
 .footer-colors {
 	background-color: rgba(96,113,115,1.00);
+}
+
+/* utilites */
+.bottom-margin {
+	margin-bottom: 10px;
 }
 
 .no-top-margin {
@@ -42,10 +47,13 @@
     color: #C73333;
     padding-top: 1px;
 }
+.about-specialty-container {
+	min-height: 200px;
+}
 
 .get-wet {
 	background-image: url(../assets/img/waves1280x.jpg);
-/*	min-height: 560px;*/
+	// min-height: 600px;
 }
 
 #welcome {
@@ -56,7 +64,7 @@
 */
 }
 
-.col-6 #welcome {
+.col-md-6 #welcome {
 	border: 4px outset rgba(207,197,142,1.00);
 	background: repeating-linear-gradient(rgba(0,0,0,0.6) 65%, rgba(177,161,139,0.73), rgba(0,0,0,0.6));
 	border-radius: 25px;
