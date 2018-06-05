@@ -8,25 +8,27 @@
     "url": "git@github.com:kimbletech/islandboycharters.com.git"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.1",
-    "browser-sync": "^2.23.5",
-    "browserify": "^2.3.1",
-    "ftp-deploy": "^1.2.2",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.4",
+    "browserify": "^16.2.2",
+    "ftp-deploy": "^2.1.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
-    "gulp-babel": "^6.1.2",
+    "gulp-babel": "^7.0.1",
     "gulp-browserify": "^0.5.1",
     "gulp-headerfooter": "^1.0.3",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
     "gulp-tinypng-compress": "^1.2.1",
     "gulp-uglify": "^3.0.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "browserify-shim": "^2.0.10",
+    "bootstrap": "^4.1.1",
+    "browserify-shim": "^3.8.14",
     "jquery": "~3.3.1",
-    "mdbootstrap": "^4.5.0",
-    "popper.js": "^1.12.9"
+    "mdbootstrap": "^4.5.4",
+    "popper.js": "^1.14.3",
+    "shell-quote": "^1.6.1"
   }
 }
